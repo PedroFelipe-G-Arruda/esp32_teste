@@ -1,1 +1,1 @@
-msg="Texo do arquivo de parametros"
+msg="Texo do arquivo de parametros versao 2"
