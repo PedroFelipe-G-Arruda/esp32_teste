@@ -6,16 +6,15 @@
 #include <AsyncElegantOTA.h>
 #include "SPIFFS.h"
 #include <coap-simple.h>
+#include "credenciais.h" // Contém Rede e Senhas do WiFi
 
 // Descomentar caso tenha o sensor Dallas DS18B20 
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-const char* ssid = "ARRUDA_2G";
-const char* password = "DD5W#zeqLa";
+const char* ssid = REDE;
+const char* password = SENHA;
 
-// const char* ssid = "763B_Fibra";
-// const char* password = "31@dugil";
 
 // Descomentar caso tenha o sensor Dallas DS18B20
 #define ONE_WIRE_BUS 4
